@@ -42,5 +42,7 @@ surface_area = round(surface_area, 3)
 
 # Display the results 
 print("\nResults:\n")
+print("The height of the pyramid is:", h)
+print("The length of the base is", a)
 print("The volume of the pyramid is:", volume)
-print("The surface area of the four sides is:", surface_area)
+print("The total surface area of the four sides is:", surface_area)
