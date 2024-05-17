@@ -35,8 +35,11 @@ area_one_side = (slant_height * a) / 2
 # Calculate the surface area of the four sides
 surface_area = 4 * area_one_side
 
-# Display the results with three decimal places
-print("\n Results: \n")
-print("The volume of the pyramid is:", round(volume, 3))
-print("The surface area of the four sides is:", round(surface_area, 3))
+# Round the results to three decimal points
+volume = round(volume, 3)
+surface_area = round(surface_area, 3)
 
+# Display the results 
+print("\nResults:\n")
+print("The volume of the pyramid is:", volume)
+print("The surface area of the four sides is:", surface_area)
