@@ -8,13 +8,15 @@ import math
 # Python Version:
 
 # Display a header explaing the program
+print("Welcome!")
 print("\n This program calculates the surface area and volume of a square pyramid. \n")
 
-# Get the length of the base from user
-a = float(input("Enter the length of the base of the pyramid:"))
 
 # Get the height of the pyramid from user
 h = float(input("Enter the height of the pyramid: "))
+
+# Get the length of the base from user
+a = float(input("Enter the length of the base of the pyramid:"))
 
 # Formula: 
   # volume = a**2h / 3
@@ -35,5 +37,6 @@ surface_area = 4 * area_one_side
 
 # Display the results with three decimal places
 print("\n Results: \n")
-print("The surface area of the four sides is:", round(surface_area, 3))
 print("The volume of the pyramid is:", round(volume, 3))
+print("The surface area of the four sides is:", round(surface_area, 3))
+
