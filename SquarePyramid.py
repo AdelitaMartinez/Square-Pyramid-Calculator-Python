@@ -3,13 +3,14 @@ import math
 # MartinezP1
 # Programmer: Adelita Martinez
 # Email: amartinez1013@cnm.edu
-# Purpose: Make a program to calculate the surgace area and volume of a square pyramid
+# Purpose: Make a program to calculate the surface area and volume of a square pyramid
 # Volume of a pyramid
-# Python Version:
+# Python Version: 3.12.3
 
 # Display a header explaing the program
 print("Welcome!")
-print("\n This program calculates the surface area and volume of a square pyramid. \n")
+print("This program calculates the surface area and volume of a square pyramid.")
+print("\n Let's begin!")
 
 
 # Get the height of the pyramid from user
